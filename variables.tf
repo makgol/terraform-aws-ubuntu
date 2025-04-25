@@ -1,11 +1,11 @@
 variable "name_prefix" {
   type = string
-  default = "your_name" // change to your name
+  default = "khomma" // change to your name
 }
 
 variable "ec2_ssh_key" {
   type = string
-  default = "your_ssh_key" // change to your ssh key
+  default = "khomma-ssh-rsa" // change to your ssh key
 }
 
 variable "aws_vars" {
